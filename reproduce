@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sbt compile
+
+for v in 2.12.3 2.12.10 2.12.11 2.12.14 2.13.6
+do
+  sbt -Ddyn.scala.version=$v "runMain scalabug.Main"
+done

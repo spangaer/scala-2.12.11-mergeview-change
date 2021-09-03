@@ -1,0 +1,7 @@
+{
+  "files.watcherExclude": {
+    "**/target": true
+  },
+  "metals.bloopSbtAlreadyInstalled": true,
+  "editor.formatOnSave": true
+}
